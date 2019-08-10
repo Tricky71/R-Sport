@@ -1,0 +1,258 @@
+.consultation {
+    padding-top: 40px;
+    padding-bottom: 45px;
+    background-color: #fff;
+}
+
+.consultation__title {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 17px;
+    font-size: 28px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: $main-gray;
+    text-align: center;
+}
+
+.consultation__info {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    color: $main-gray;
+}
+
+.consultation__slider-2 {
+    @include reset-list;
+    
+}
+
+
+
+.consultation__slider-image {
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.consultation__slider-info {
+    padding: 0 60px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.consultation__slider-info b {
+   
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #c5c7c6;
+}
+
+.consultation__slider-name {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.consultation__slider-worker {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.consultation__slider-text {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    padding: 25px 0;
+    margin-bottom: 20px;
+    font-size: 21px;
+    text-align: center;
+        &::before,
+        &::after {
+            content: ("");
+            position: absolute;
+            width: 16px;
+            height: 14px;
+            background-image: url("../../img/badge.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 16px auto;
+
+        }
+        &::before {
+            top: 0;
+            left: 50%;
+            margin-left: -8px;
+        } 
+        &::after {
+            transform: rotate(180deg);
+            bottom: 0;
+            left: 50%;
+            margin-left: -8px;
+        }
+}
+
+.consultation__slider-nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.consultation__nav-info {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+        &--right {
+           margin-left: auto;
+        }
+}
+
+.consultation__nav-toggle {
+    
+    position: relative;
+    border: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+    cursor: pointer;
+    width: 33px;
+    height: 2px;
+    background-color: $main-blue;
+        &::before,
+        &::after {
+            content: ('');
+            position: absolute;
+            width: 5px;
+            height: 2px;
+            background-color: inherit;
+        }
+        &::before {
+            transform: rotate(-45deg);
+            top: -2px;
+            left: 0;
+        } 
+        &::after {
+            transform: rotate(45deg);
+            top: 2px;
+            left: 0;
+        } 
+        &--next {
+            transform: rotate(180deg);
+        }
+}
+
+
+
+@media (min-width: $tablet-width) {
+    .consultation {
+        padding-top: 50px;
+        padding-bottom: 55px;
+    }
+
+    .consultation__title {
+        font-size: 36px;
+    }
+
+    .consultation__info {
+        
+        margin-bottom: 40px;
+    }
+
+    .consultation__slider-2 {
+        margin-bottom: 50px;
+    }
+
+    .conslultation__slider-content {
+        display: flex;
+        flex-direction: row;
+         height: 454px;
+        
+        
+    }
+
+    .consultation__slider-image {
+        margin: 0;
+        // flex-shrink: 1;
+       
+    }
+
+    .consultation__slider-info {
+        margin: 0;
+        align-items: flex-start;
+       
+       
+    }
+
+    .consultation__slider-name {
+        line-height: 24px;
+    }
+
+    .consultation__slider-worker {
+        margin-bottom: 55px;
+    }
+
+    .consultation__slider-text {
+        text-align: left;
+        // margin-bottom: 80px;
+            &::before,
+            &::after {
+                left: 8px;
+            }
+    }
+
+    .consultation__slider-button {
+        margin-top: auto;
+        width: 257px;
+        padding: 20px 0;
+        text-transform: uppercase;
+        font-size: 21px;
+        font-weight: bold;
+    }
+
+    
+}
+
+@media (min-width: $desktop-width) {
+    .consultation {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .consultation__title {
+        margin-bottom: 27px;
+        font-size: 48px;
+    }
+
+    .consultation__info {
+        margin: 0 auto;
+        // padding: 0 90px;
+        width: 510px;
+        margin-bottom: 30px;
+        font-size: 21px;
+    }
+
+    .consultation__slider-2 {
+        padding-top: 122px;
+        padding-left: 70px;
+        margin-bottom: 50px;
+    }
+
+    .consultation__slider-info {
+        padding: 0 90px;
+    }
+
+    .consultation__slider-nav {
+        justify-content: space-between;
+    }
+}

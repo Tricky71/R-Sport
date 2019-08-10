@@ -1,0 +1,162 @@
+.calculate {
+    padding-top: 40px;
+    padding-bottom: 45px;
+    background-color: $main-gray;
+}
+
+.calculate__title {
+    margin-bottom: 17px;
+    display: block;
+    font-size: 28px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+
+.calculate__text {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.calculate__form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        & input,
+        & button {
+           width: 100%;
+           margin-bottom: 30px;
+        }
+        
+}
+
+.calculate__form input {
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    background-color: $main-gray;
+    color: #fff;
+    font-size: 16px;
+        &:hover {
+           border-color: $main-blue;
+        }
+        &::placeholder {
+            color: #fff;
+        }
+        
+}
+
+#calculate-check:checked ~ .calculate__form-check-label::after {
+            display: block;
+}
+
+.calculate__form-button {
+    padding: 12px 20px;
+    &:hover {
+        background-color: #fff;
+        color: $main-gray;
+    }
+}
+    
+
+
+
+
+.calculate__form-check-label {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    padding-left: 40px;
+    color: #fff;
+    text-align: left;
+        &::before {
+           content: ('');
+           position: absolute;
+           width: 15px;
+           height: 15px;
+           top: 9px;
+           left: 10px;
+           background-color: #fff;
+        }
+        &:after {
+            display: none;
+            content: url(../../img/mcheck15.png);
+            position: absolute;
+            width: 15px;
+            height: 13px;
+            top: 2px;
+            left: 10px;
+            z-index: 1000;
+        }
+}
+
+
+
+@media (min-width: $tablet-width) {
+    .calculate {
+    padding-top: 50px;
+    padding-bottom: 55px;
+    }
+
+    .calculate__title {
+    font-size: 36px;
+    }
+
+    .calculate__text {
+        margin-bottom: 40px;
+    }
+
+    .calculate__form {
+        & input,
+        & button {
+            width: 50%;
+        }
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .calculate {
+        padding-top: 80px;
+        padding-bottom: 65px;
+    }
+
+    .calculate-title {
+        margin-bottom: 27px;
+        font-size: 48px;
+    }
+
+    .calculate__text {
+        margin-bottom: 50px;
+        font-size: 24px;
+    }
+
+    .calculate__form {
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0 70px;
+            & input,
+            & button {
+               width: 325px;
+            }
+            & input {
+                margin-right: 23px;
+                padding: 18px 20px;
+            }
+    }
+
+    .calculate__form-button {
+        padding: 17px 20px; 
+    }
+
+    .calculate__form-check-label {
+        margin: 0 auto;
+        transform: translateX(-25px);
+    }
+}

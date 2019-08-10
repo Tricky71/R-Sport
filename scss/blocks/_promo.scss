@@ -1,0 +1,195 @@
+.promo {
+    position: relative;
+    
+   
+}
+
+.promo__slider {
+    @include reset-list;
+   
+}
+
+.promo__slider-block {
+    margin: 0 auto;
+    // width: 768px;
+    min-height: 267px;
+    background-color: #282828;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 768px auto;
+    filter: brightness(30%) grayscale(50%);
+       
+}
+
+.promo__slider-block {
+
+     &--block-1 {
+           background-image: url("../../img/promo-bg-1-mob.jpg");
+        }
+        &--block-2 {
+           background-image: url("../../img/promo-bg-2-mob.jpg");
+        }
+        &--block-3 {
+           background-image: url("../../img/promo-bg-3-mob.jpg");
+        }
+        &--block-4 {
+           background-image: url("../../img/promo-bg-4-mob.jpg");
+        }
+}
+
+.promo__info {
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    // margin-left: -245px;
+    z-index: 100;
+    padding-top: 30px;
+}
+
+.promo__title {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    // text-align: center;
+    color: #fff;
+    font-weight: normal;
+
+}
+
+@media (min-width: $tablet-width) {
+    .promo__slider-block {
+        min-height: 426px;
+        background-size: 1200px auto;
+    }
+
+    .promo__slider-block {
+     &--block-1 {
+           background-image: url("../../img/promo-bg-1-tab.jpg");
+        }
+        &--block-2 {
+           background-image: url("../../img/promo-bg-2-tab.jpg");
+        }
+        &--block-3 {
+           background-image: url("../../img/promo-bg-3-tab.jpg");
+        }
+        &--block-4 {
+           background-image: url("../../img/promo-bg-4-tab.jpg");
+        }
+    }
+
+    .promo__info {
+        padding: 60px 0;
+        // margin-left: -360px;
+    }
+
+    .promo__title {
+        font-size: 40px;
+        
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .promo {
+        width: 1920px;
+        margin: 0 auto;
+    }
+    .promo__slider-block {
+         min-height: 682px;
+        background-size: 1920px auto;
+    }
+
+    .promo__slider-block {
+     &--block-1 {
+           background-image: url("../../img/promo-bg-1.jpg");
+        }
+        &--block-2 {
+           background-image: url("../../img/promo-bg-2.jpg");
+        }
+        &--block-3 {
+           background-image: url("../../img/promo-bg-3.jpg");
+        }
+        &--block-4 {
+           background-image: url("../../img/promo-bg-4.jpg");
+        }
+    }
+
+    .promo__info {
+        padding-top: 155px;
+    }
+
+    .promo__title {
+        margin-bottom: 60px;
+        font-size: 59px;
+        line-height: 85px;
+        font-weight: 700;
+    }
+
+    .promo__button {
+        width: 195px;
+    }
+
+    .promo__slider-button {
+    
+    position: absolute;
+    width: 48px;
+    height: 80px;
+    border: none;
+    padding: 0;
+    background-color: #fff;
+    cursor: pointer;
+        &:hover { 
+            background-color: $main-blue;
+            &::after,
+            &::before {
+                background-color: #fff;
+            }
+        }
+        &--prev {
+            transform: rotate(180deg);
+            left: 0;
+            top: 50%;
+            margin-top: -65px;
+            z-index: 200;
+        }
+        &--next {
+            
+            right: 0;
+            top: 50%;
+            margin-top: -65px;
+            z-index: 200;
+        }
+    }
+
+    .promo__slider-button div {
+        position: relative;
+        width: 100%;
+        height: 100%;
+           &::after,
+        &::before {
+            background-color: $main-gray;
+        }
+        
+        &::before,
+        &::after {
+            content: "";
+            position: absolute;
+            width: 20px;
+            height: 2px;
+            // background-color: #dadada;
+        }
+        &::before {
+            transform: rotate(45deg);
+            top: 32px;
+            left: 15px;
+        }
+        &::after {
+            transform: rotate(-45deg);
+            bottom: 32px;
+            left: 15px;
+        }
+        
+    }
+}

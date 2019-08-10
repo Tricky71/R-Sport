@@ -1,0 +1,63 @@
+@media (min-width: $desktop-width) {
+    .mini-slider {
+        height: 760px;
+        box-sizing: border-box;
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+
+    .mini-slider__item {
+        // height: 100%;
+        // padding-bottom: 80px;
+       
+        margin-bottom: 80px;
+            &:last-child {
+               margin-bottom: 0;
+            }
+    }
+
+    
+
+    .mini-slider__image {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 20px;
+        margin: 0 auto;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+            &--image-1 {
+               background-image: url("../../img/Direct-sm.jpg");
+               background-size: 221px auto;
+               background-position: top 0 left -70px;
+            }
+            &--image-2 {
+               background-image: url("../../img/cofounder-sm.jpg");
+               background-size: 118px auto;
+               background-position: top -10px right 0;
+            }
+            &--image-3 {
+               background-image: url("../../img/admin.jpg");
+               background-size: 243px auto;
+               background-position: top 0 left -40px;
+            }
+    }
+
+    .mini-slider__name {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 18px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .mini-slider__worker {
+        display: block;
+        font-size: 14px;
+        text-align: center;
+        font-weight: normal;
+    }
+
+    .mini-slider__button {
+        z-index: 1000;
+    }
+}

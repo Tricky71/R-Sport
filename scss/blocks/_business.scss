@@ -1,0 +1,148 @@
+.business__header {
+    margin-bottom: 45px;
+    background-color: $main-gray;
+}
+
+.business__header-wrapper {
+    transform: skew(30deg) translate(-20px);
+    box-shadow: -30px 0 $main-gray, -60px 0 #fff;
+    background-color: #fff;
+}
+
+.business__title {
+    margin: 0;
+    padding: 0;
+    transform: skew(-30deg);
+    font-size: 25px;
+    line-height: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.business__cart {
+    height: 346px;
+        &--cart-1 {
+            &:hover {
+                & .business__cart-image {
+                   background-image: url(../../img/icons/icons_business_dark/1.png);
+                }
+            }
+        }
+        &--cart-2 {
+            &:hover {
+                & .business__cart-image {
+                   background-image: url(../../img/icons/icons_business_dark/2.png);
+                }
+            }
+        }
+        &--cart-3 {
+            &:hover {
+                & .business__cart-image {
+                   background-image: url(../../img/icons/icons_business_dark/3.png);
+                }
+            }
+        }
+        &--cart-4 {
+            &:hover {
+                & .business__cart-image {
+                   background-image: url(../../img/icons/icons_business_dark/4.png);
+                }
+            }
+        }
+        &--cart-5 {
+            &:hover {
+                & .business__cart-image {
+                   background-image: url(../../img/icons/icons_business_dark/5.png);
+                }
+            }
+        }
+        &--cart-6 {
+            &:hover {
+                & .business__cart-image {
+                   background-image: url(../../img/icons/icons_business_dark/6.png);
+                }
+            }
+        }
+}
+
+.business__cart-image {
+    &--image-1 {
+        background-image: url(../../img/icons/icons_business_light/1.png);
+        background-size: 110px auto;
+    }
+    &--image-2 {
+        background-image: url(../../img/icons/icons_business_light/2.png);
+        background-size: 119px auto;
+    }
+    &--image-3 {
+        background-image: url(../../img/icons/icons_business_light/3.png);
+        background-size: 142px auto;
+    }
+    &--image-4 {
+        background-image: url(../../img/icons/icons_business_light/4.png);
+        background-size: 110px auto;
+    }
+    &--image-5 {
+        background-image: url(../../img/icons/icons_business_light/5.png);
+        background-size: 110px auto;
+    }
+    &--image-6 {
+        background-image: url(../../img/icons/icons_business_light/6.png);
+        background-size: 110px auto;
+    }
+}
+
+.business__buttons {
+    margin: 0 auto;
+    margin-top: 45px;
+    margin-bottom: 50px;
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.business__button {
+    width: 115px;
+    // background-color: #fff;
+    // border: 1px solid $main-gray;
+    // color: $main-gray;
+        // &:hover {
+        //    background-color: $main-gray;
+        //    color: #fff;
+        // }
+}
+
+@media (min-width: $tablet-width) {
+    .business__title {
+        font-size: 48px;
+        line-height: 56px;
+    }
+}
+
+
+
+@media (min-width: $desktop-width) {
+    .business__header {
+        margin-bottom: 95px;
+    }
+
+    .business__header-wrapper {
+        margin-left: 30px;
+    }
+
+    .business__title {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .business__buttons {
+        width: 420px;
+        margin-top: 65px;
+        margin-bottom: 95px;
+    }
+
+    .business__button {
+        width: 195px;
+    }
+}

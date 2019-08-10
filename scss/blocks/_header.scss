@@ -1,0 +1,160 @@
+.header {
+    background-color: $main-gray;
+}
+    
+.header__wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    background-image: linear-gradient(45deg, transparent, $main-gray);
+}
+
+.header__logo {
+    order: 1;
+}
+
+.header__nav {
+    position: absolute;
+    // display: none;
+    width: 100%;
+    order: 3;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+}
+
+.header__tel {
+    position: relative;
+    order: 2;
+    // padding-left: 25px;
+   
+    font-weight: bold;
+    &::before {
+        content: ("");
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        top: 5px;
+        left: -30px;
+        background-image: url("../../img/tel.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 20px auto;
+    }
+}
+
+.header__toggle {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    top: 55px;
+    right: 30px;
+    margin-top: -25px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+.header__toggle-button {
+    position: relative;
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+    &::before {
+        content: ("");
+        position: absolute;
+        height: inherit;
+        top: -7px;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+    }
+    &::after {
+        content: ("");
+        position: absolute;
+        height: inherit;
+        top: 7px;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+    }
+}
+
+@media (min-width: $tablet-width) {
+    .header__toggle {
+        right: 40px;
+        top: 65px;
+    }
+}
+
+@media (min-width: $desktop-width) {
+
+    // .header {
+    //     background-image: linear-gradient(-135deg, $main-gray 10%, #fff 10%);
+    // }
+
+    .header__wrapper {
+        position: relative;
+        flex-direction: row;
+        justify-content: flex-start;
+        background-image: linear-gradient(58deg, $main-gray 49px, transparent 49px);
+        &::after {
+            position: absolute;
+            content: ("");
+            width: 80px;
+            height: 100px;
+            top: 0;
+            right: -80px;
+            background-color: #fff;
+            background-image: linear-gradient(60deg, transparent 70px, $main-gray 70px);
+
+        }
+    }
+
+    .header__logo {
+        order: 1;
+        margin-left: 10px;
+        margin-right: 20px;
+        & img {
+            width: 224px;
+            height: 100px;
+        }
+    }
+
+    .header__nav {
+        position: static;
+        width: 655px;
+        display: block;
+        height: 100%;
+        order: 2;
+    }
+
+    .header__tel {
+        order: 3;
+        // width: 200px;
+        margin-left: auto;
+        padding-top: 5px;
+        padding-left: 48px;
+        font-size: 25px;
+        line-height: 90px;
+        font-weight: 900;
+        text-align: right;
+        letter-spacing: 1px;
+            &::before {
+                width: 36px;
+                height: 36px;
+                background-size: 36px auto;
+                top: 32px;
+                left: 0;
+            }
+    }
+
+    .header__toggle {
+        display: none;
+    }
+}
