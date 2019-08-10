@@ -4780,19 +4780,19 @@ body input:required:valid, body textarea:required:valid {
 }
 
 .promo__slider-block--block-1 {
-  background-image: url("../../img/promo-bg-1-mob.jpg");
+  background-image: url("../img/promo-bg-1-mob.jpg");
 }
 
 .promo__slider-block--block-2 {
-  background-image: url("../../img/promo-bg-2-mob.jpg");
+  background-image: url("../img/promo-bg-2-mob.jpg");
 }
 
 .promo__slider-block--block-3 {
-  background-image: url("../../img/promo-bg-3-mob.jpg");
+  background-image: url("../img/promo-bg-3-mob.jpg");
 }
 
 .promo__slider-block--block-4 {
-  background-image: url("../../img/promo-bg-4-mob.jpg");
+  background-image: url("../img/promo-bg-4-mob.jpg");
 }
 
 .promo__info {
@@ -4820,16 +4820,16 @@ body input:required:valid, body textarea:required:valid {
     background-size: 1200px auto;
   }
   .promo__slider-block--block-1 {
-    background-image: url("../../img/promo-bg-1-tab.jpg");
+    background-image: url("../img/promo-bg-1-tab.jpg");
   }
   .promo__slider-block--block-2 {
-    background-image: url("../../img/promo-bg-2-tab.jpg");
+    background-image: url("../img/promo-bg-2-tab.jpg");
   }
   .promo__slider-block--block-3 {
-    background-image: url("../../img/promo-bg-3-tab.jpg");
+    background-image: url("../img/promo-bg-3-tab.jpg");
   }
   .promo__slider-block--block-4 {
-    background-image: url("../../img/promo-bg-4-tab.jpg");
+    background-image: url("../img/promo-bg-4-tab.jpg");
   }
   .promo__info {
     padding: 60px 0;
@@ -4849,16 +4849,16 @@ body input:required:valid, body textarea:required:valid {
     background-size: 1920px auto;
   }
   .promo__slider-block--block-1 {
-    background-image: url("../../img/promo-bg-1.jpg");
+    background-image: url("../img/promo-bg-1.jpg");
   }
   .promo__slider-block--block-2 {
-    background-image: url("../../img/promo-bg-2.jpg");
+    background-image: url("../img/promo-bg-2.jpg");
   }
   .promo__slider-block--block-3 {
-    background-image: url("../../img/promo-bg-3.jpg");
+    background-image: url("../img/promo-bg-3.jpg");
   }
   .promo__slider-block--block-4 {
-    background-image: url("../../img/promo-bg-4.jpg");
+    background-image: url("../img/promo-bg-4.jpg");
   }
   .promo__info {
     padding-top: 155px;
@@ -5325,19 +5325,19 @@ body input:required:valid, body textarea:required:valid {
 }
 
 .equipment__slider-item--item-1 {
-  background-image: url("../../img/equip-1-mob.jpg");
+  background-image: url("../img/equip-1-mob.jpg");
 }
 
 .equipment__slider-item--item-2 {
-  background-image: url("../../img/equip-2-mob.jpg");
+  background-image: url("../img/equip-2-mob.jpg");
 }
 
 .equipment__slider-item--item-3 {
-  background-image: url("../../img/equip-3-mob.jpg");
+  background-image: url("../img/equip-3-mob.jpg");
 }
 
 .equipment__slider-item--item-4 {
-  background-image: url("../../img/equip-4-mob.jpg");
+  background-image: url("../img/equip-4-mob.jpg");
 }
 
 .equipment__info {
@@ -5452,16 +5452,16 @@ body input:required:valid, body textarea:required:valid {
     background-size: 1200px auto;
   }
   .equipment__slider-item--item-1 {
-    background-image: url("../../img/equip-1-tab.jpg");
+    background-image: url("../img/equip-1-tab.jpg");
   }
   .equipment__slider-item--item-2 {
-    background-image: url("../../img/equip-2-tab.jpg");
+    background-image: url("../img/equip-2-tab.jpg");
   }
   .equipment__slider-item--item-3 {
-    background-image: url("../../img/equip-3-tab.jpg");
+    background-image: url("../img/equip-3-tab.jpg");
   }
   .equipment__slider-item--item-4 {
-    background-image: url("../../img/equip-4-tab.jpg");
+    background-image: url("../img/equip-4-tab.jpg");
   }
   .equipment__info {
     width: 540px;
@@ -5502,16 +5502,16 @@ body input:required:valid, body textarea:required:valid {
     background-size: 1920px auto;
   }
   .equipment__slider-item--item-1 {
-    background-image: url("../../img/equip-1.jpg");
+    background-image: url("../img/equip-1.jpg");
   }
   .equipment__slider-item--item-2 {
-    background-image: url("../../img/equip-2.jpg");
+    background-image: url("../img/equip-2.jpg");
   }
   .equipment__slider-item--item-3 {
-    background-image: url("../../img/equip-3.jpg");
+    background-image: url("../img/equip-3.jpg");
   }
   .equipment__slider-item--item-4 {
-    background-image: url("../../img/equip-4.jpg");
+    background-image: url("../img/equip-4.jpg");
   }
   .equipment__info {
     width: 850px;
@@ -5589,56 +5589,56 @@ body input:required:valid, body textarea:required:valid {
 }
 
 .state-order__cart--cart-1:hover .state-order__cart-image {
-  background-image: url(../../img/icons/icons_state_dark/1.png);
+  background-image: url(../img/icons/icons_state_dark/1.png);
 }
 
 .state-order__cart--cart-2:hover .state-order__cart-image {
-  background-image: url(../../img/icons/icons_state_dark/2.png);
+  background-image: url(../img/icons/icons_state_dark/2.png);
 }
 
 .state-order__cart--cart-3:hover .state-order__cart-image {
-  background-image: url(../../img/icons/icons_state_dark/3.png);
+  background-image: url(../img/icons/icons_state_dark/3.png);
 }
 
 .state-order__cart--cart-4:hover .state-order__cart-image {
-  background-image: url(../../img/icons/icons_state_dark/4.png);
+  background-image: url(../img/icons/icons_state_dark/4.png);
 }
 
 .state-order__cart--cart-5:hover .state-order__cart-image {
-  background-image: url(../../img/icons/icons_state_dark/5.png);
+  background-image: url(../img/icons/icons_state_dark/5.png);
 }
 
 .state-order__cart--cart-6:hover .state-order__cart-image {
-  background-image: url(../../img/icons/icons_state_dark/6.png);
+  background-image: url(../img/icons/icons_state_dark/6.png);
 }
 
 .state-order__cart-image--image-1 {
-  background-image: url(../../img/icons/icons_state_light/1.png);
+  background-image: url(../img/icons/icons_state_light/1.png);
   background-size: 110px auto;
 }
 
 .state-order__cart-image--image-2 {
-  background-image: url(../../img/icons/icons_state_light/2.png);
+  background-image: url(../img/icons/icons_state_light/2.png);
   background-size: 119px auto;
 }
 
 .state-order__cart-image--image-3 {
-  background-image: url(../../img/icons/icons_state_light/3.png);
+  background-image: url(../img/icons/icons_state_light/3.png);
   background-size: 142px auto;
 }
 
 .state-order__cart-image--image-4 {
-  background-image: url(../../img/icons/icons_state_light/4.png);
+  background-image: url(../img/icons/icons_state_light/4.png);
   background-size: 110px auto;
 }
 
 .state-order__cart-image--image-5 {
-  background-image: url(../../img/icons/icons_state_light/5.png);
+  background-image: url(../img/icons/icons_state_light/5.png);
   background-size: 110px auto;
 }
 
 .state-order__cart-image--image-6 {
-  background-image: url(../../img/icons/icons_state_light/6.png);
+  background-image: url(../img/icons/icons_state_light/6.png);
   background-size: 110px auto;
 }
 
@@ -5778,56 +5778,56 @@ body input:required:valid, body textarea:required:valid {
 }
 
 .business__cart--cart-1:hover .business__cart-image {
-  background-image: url(../../img/icons/icons_business_dark/1.png);
+  background-image: url(../img/icons/icons_business_dark/1.png);
 }
 
 .business__cart--cart-2:hover .business__cart-image {
-  background-image: url(../../img/icons/icons_business_dark/2.png);
+  background-image: url(../img/icons/icons_business_dark/2.png);
 }
 
 .business__cart--cart-3:hover .business__cart-image {
-  background-image: url(../../img/icons/icons_business_dark/3.png);
+  background-image: url(../img/icons/icons_business_dark/3.png);
 }
 
 .business__cart--cart-4:hover .business__cart-image {
-  background-image: url(../../img/icons/icons_business_dark/4.png);
+  background-image: url(../img/icons/icons_business_dark/4.png);
 }
 
 .business__cart--cart-5:hover .business__cart-image {
-  background-image: url(../../img/icons/icons_business_dark/5.png);
+  background-image: url(../img/icons/icons_business_dark/5.png);
 }
 
 .business__cart--cart-6:hover .business__cart-image {
-  background-image: url(../../img/icons/icons_business_dark/6.png);
+  background-image: url(../img/icons/icons_business_dark/6.png);
 }
 
 .business__cart-image--image-1 {
-  background-image: url(../../img/icons/icons_business_light/1.png);
+  background-image: url(../img/icons/icons_business_light/1.png);
   background-size: 110px auto;
 }
 
 .business__cart-image--image-2 {
-  background-image: url(../../img/icons/icons_business_light/2.png);
+  background-image: url(../img/icons/icons_business_light/2.png);
   background-size: 119px auto;
 }
 
 .business__cart-image--image-3 {
-  background-image: url(../../img/icons/icons_business_light/3.png);
+  background-image: url(../img/icons/icons_business_light/3.png);
   background-size: 142px auto;
 }
 
 .business__cart-image--image-4 {
-  background-image: url(../../img/icons/icons_business_light/4.png);
+  background-image: url(../img/icons/icons_business_light/4.png);
   background-size: 110px auto;
 }
 
 .business__cart-image--image-5 {
-  background-image: url(../../img/icons/icons_business_light/5.png);
+  background-image: url(../img/icons/icons_business_light/5.png);
   background-size: 110px auto;
 }
 
 .business__cart-image--image-6 {
-  background-image: url(../../img/icons/icons_business_light/6.png);
+  background-image: url(../img/icons/icons_business_light/6.png);
   background-size: 110px auto;
 }
 
@@ -6457,7 +6457,7 @@ body input:required:valid, body textarea:required:valid {
   position: absolute;
   width: 16px;
   height: 14px;
-  background-image: url("../../img/badge.png");
+  background-image: url("../img/badge.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 16px auto;
@@ -6657,17 +6657,17 @@ body input:required:valid, body textarea:required:valid {
     background-repeat: no-repeat;
   }
   .mini-slider__image--image-1 {
-    background-image: url("../../img/Direct-sm.jpg");
+    background-image: url("../img/Direct-sm.jpg");
     background-size: 221px auto;
     background-position: top 0 left -70px;
   }
   .mini-slider__image--image-2 {
-    background-image: url("../../img/cofounder-sm.jpg");
+    background-image: url("../img/cofounder-sm.jpg");
     background-size: 118px auto;
     background-position: top -10px right 0;
   }
   .mini-slider__image--image-3 {
-    background-image: url("../../img/admin.jpg");
+    background-image: url("../img/admin.jpg");
     background-size: 243px auto;
     background-position: top 0 left -40px;
   }
@@ -6736,7 +6736,7 @@ body input:required:valid, body textarea:required:valid {
   height: 36px;
   top: 0;
   left: 0;
-  background-image: url("../../img/icon-adress.png");
+  background-image: url("../img/icon-adress.png");
   background-size: 28px auto;
 }
 
@@ -6749,7 +6749,7 @@ body input:required:valid, body textarea:required:valid {
   height: 37px;
   top: 0;
   left: 0;
-  background-image: url("../../img/icon-phone-1.png");
+  background-image: url("../img/icon-phone-1.png");
   background-size: 37px auto;
 }
 
@@ -6762,7 +6762,7 @@ body input:required:valid, body textarea:required:valid {
   height: 37px;
   top: 0;
   left: 0;
-  background-image: url("../../img/icon-phone-2.png");
+  background-image: url("../img/icon-phone-2.png");
   background-size: 33px auto;
 }
 
@@ -6775,7 +6775,7 @@ body input:required:valid, body textarea:required:valid {
   height: 30px;
   top: 0;
   left: 0;
-  background-image: url("../../img/icon-mail.png");
+  background-image: url("../img/icon-mail.png");
   background-size: 50px auto;
 }
 

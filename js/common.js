@@ -484,7 +484,7 @@
         position: {lat: 54.732548, lng: 55.982277},
         map: myMap,
         animation: google.maps.Animation.BOUNCE,
-        icon: "../img/marker.png"
+        icon: "img/marker.png"
     });  
 
     
